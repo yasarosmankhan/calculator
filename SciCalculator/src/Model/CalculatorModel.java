@@ -7,15 +7,14 @@ package Model;
  */
 public interface CalculatorModel {
 
+    void setOperand(String opr);
 
-    public void setOperand(String opr);
+    void setOperator(int operator);
 
-    public void setOperator(int operator);
+    double getResult();
 
-    public double getResult();
+    void setResult(double result);
 
-    public void setResult(double hasil);
-
-    public void process();
+    void process();
 
 }

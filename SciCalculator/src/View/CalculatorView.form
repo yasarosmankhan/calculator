@@ -168,11 +168,11 @@
                           <Component id="button3" min="-2" pref="42" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="buttonKoma" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="buttonPoint" min="-2" pref="42" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="button0" min="-2" pref="42" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button12" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="buttonClear" min="-2" pref="42" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
@@ -202,9 +202,9 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="buttonKoma" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="buttonPoint" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                       <Component id="button0" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
-                      <Component id="button12" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="buttonClear" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -236,12 +236,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="buttonKoma">
+        <Component class="javax.swing.JButton" name="buttonPoint">
           <Properties>
             <Property name="text" type="java.lang.String" value="."/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonKomaActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonPointActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="button0">
@@ -252,12 +252,12 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button0ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="button12">
+        <Component class="javax.swing.JButton" name="buttonClear">
           <Properties>
             <Property name="text" type="java.lang.String" value="C"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button12ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClearActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="button2">
