@@ -6,7 +6,6 @@
 /*
  * CalculatorView.java
  *
- * Created on Feb 14, 2010, 9:18:44 AM
  */
 
 package View;
